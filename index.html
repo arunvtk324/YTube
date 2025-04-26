@@ -12,20 +12,45 @@
             border: 2px;
             border-style: dotted;
             border-color: rgb(219, 31, 13); */
+            display: block;
         }
 
         .searchbar{
             font-size: 10px;
-            margin-left: 20px;
+            /* margin-left: 20px; */
+            display: block;
+        }
+        .video-author,.video-stats{
+            /* display: inline-block; */
+        }
+        .div-sample{
+            display: inline;
+        }
+        .video-preview{
+            width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 12px;
         }
 
     </style>
 </head>
-<body>
-    <img class ="thumbnail" src="images/thumbnail-1.webp" alt="">
+<body> 
+    
     <input class="searchBar" type="text" placeholder="Search">
-    <p>Talking Tech and AI with Google CEO Sundar Pichai! </p>
-    <p>Marques Brownlee  </p>
-    <p>3.4M views · 6 months ago </p>
+    
+    <!-- <div class="div-sample">this is a div</div> -->
+    <div class="video-preview">
+        <img class ="thumbnail" src="images/thumbnail-1.webp" alt="">
+        <p class="video-title">Talking Tech and AI with <strong>Google CEO</strong> Sundar Pichai! </p>
+        <p class="video-author">Marques Brownlee  </p>
+        <p class="video-stats">3.4M views &#183; 6 months ago </p>
+    </div>
+    <div class="video-preview">
+        <img class ="thumbnail" src="images/thumbnail-2.webp" alt="">
+        <p class="video-title">Try Not To <strong>Laugh</strong>Challenge &#x23; 9 </p>
+        <p class="video-author">Markiplier </p>
+        <p class="video-stats">19M views · 4 years ago  </p>
+    </div>
 </body>
 </html>
