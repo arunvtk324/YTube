@@ -20,7 +20,7 @@
         }
 
         .thumbnail{
-            width: 300px;
+            width: 250px;
             /* height: 300px; */
             /* object-fit: contain;
             object-position: top;
@@ -65,6 +65,11 @@
             background-color: grey;
         }
 
+        .video-details-grid{
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }
+
         .video-details{
             display: inline-block;
             width: 200px;
@@ -104,7 +109,28 @@
             <img class ="thumbnail" src="https://arunvtk324.github.io/HTML-CSS-Funda/image/image.jpg" alt="">
         </div>
     
-        <div>
+        <div class="video-details-grid">
+            <div class="channel-picture">
+                <img class="profile-picture" src="images/profilevg.jpg" alt="">
+            </div>
+            <div class="video-details">
+                <p class="video-title">Talking Tech and AI with <strong>VGeetech CEO</strong> Varughese George! </p>
+                <p class="video-author">Varughese George  </p>
+                <p class="video-stats">3.4M views &#183; 6 months ago </p>
+          
+            </div>
+              
+        </div>
+    </div>
+
+
+    <div class="video-preview">
+        <div class="thumbnail-row">
+            <!-- <img class ="thumbnail" src="images/thumbnail-1.webp" alt=""> -->
+            <img class ="thumbnail" src="https://arunvtk324.github.io/HTML-CSS-Funda/image/image.jpg" alt="">
+        </div>
+    
+        <div class="video-details-grid">
             <div class="channel-picture">
                 <img class="profile-picture" src="images/profilevg.jpg" alt="">
             </div>

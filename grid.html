@@ -2,9 +2,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grid Practice</title>
 </head>
 <body>
+    <div style="display: grid;grid-template-columns: 100px 100px;">
+        <div style="background-color: lightblue;">
+            div1
+        </div>
+        <div style="background-color: lightpink;">
+            div2
+            <p>text</p>
+        </div>
+
+        <div style="display: grid;grid-template-columns: 100px 100px 105px;margin-top: 10px;">
+            <div style="background-color: lightblue;">
+                div1
+                <p>100px</p>
+            </div>
     
+    
+            <div style="background-color: lightpink;">
+                div2
+                <p>100px</p>
+            </div>
+            <div style="background-color: lightblue;">
+                div3
+                <p>105px</p>
+            </div>
+
+
+            <div style="display: grid;grid-template-columns: 100px 100px 105px;margin-top: 10px;">
+                <div style="background-color: lightblue;">
+                    div1
+                    <p>n100px</p>
+                </div>
+        
+        
+                <div style="background-color: lightpink;">
+                    div2
+                    <p>n100px</p>
+                </div>
+                <div style="background-color: lightblue;">
+                    div3
+                    <p>n105px</p>
+                </div>
+
+                <div style="background-color: lightpink;">
+                    div4
+                    <p>n100px</p>
+                </div>       
+             </div>       
+        </div>       
+
+    </div>
+
+    <div style="display: grid;grid-template-columns: 100px 1fr 2fr; margin-top: 10px;">
+        <div style="background-color: lightblue;">
+            div1
+        </div>
+        <div style="background-color: lightpink;">
+            1fr
+            <p>text</p>
+        </div>
+
+        <div style="background-color: lightblue;">
+            2fr
+            <p>text</p>
+        </div>
+    </div>
+
+    
+  
+
 </body>
 </html>
